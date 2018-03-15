@@ -10,6 +10,7 @@ html, body {
  * flex-direction is put in for sticky footer */
 body {
     font-size: 18px;
+    font-family: 'Ubuntu Mono', monospace;
     text-align: center;
 
 }
@@ -20,10 +21,16 @@ body {
     height: 100px;
     width: 200px;
     font-size: 50px;
+    text-align: center;
+    margin: 0 auto;
+}
+.answers:hover {
+    text-decoration: underline;
+    color: maroon;
+    background-color: gold;
 }
 .container-middle {
     background-image: url("../images/45degree_fabric.png");
-    font-family: 'Georgia', Times, Times New Roman, serif;
     overflow: hidden;
     
 }
@@ -47,15 +54,9 @@ body {
 
 }
 
-#aboutmetext {
-    color:  #777777;
-}
-
-
-
 /* used for name text - top left */
 h1#aboutmetitle, h3 {
-    color: #4aaaa5;
+    color: maroon;
     background: #ffffff;
     padding-bottom: 20px; 
     border-bottom: 2px solid #eee;
@@ -66,14 +67,10 @@ h1#aboutmetitle, h3 {
 
 #nametitle,
 #aboutmetitle {
-    font-size: 30px;
+    font-size: 25px;
     
 }
 
-h3 { 
-    font-size:22px;
-
-}
 
 .panel-default {
     padding: 30px;
